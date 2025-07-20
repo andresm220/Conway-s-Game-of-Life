@@ -7,10 +7,10 @@ This project is a real-time implementation of **Conway's Game of Life**, develop
 Conway's Game of Life is a **cellular automaton** devised by mathematician John Conway. Each cell can be either alive or dead, and evolves according to a set of simple rules based on its neighbors.
 
 Rules (applied every frame):
-- 🔴 A live cell with fewer than 2 live neighbors dies (underpopulation)
-- 🟢 A live cell with 2 or 3 live neighbors survives
-- 🔴 A live cell with more than 3 live neighbors dies (overpopulation)
-- ⚫ A dead cell with exactly 3 live neighbors becomes alive (reproduction)
+- A live cell with fewer than 2 live neighbors dies (underpopulation)
+- A live cell with 2 or 3 live neighbors survives
+- A live cell with more than 3 live neighbors dies (overpopulation)
+- A dead cell with exactly 3 live neighbors becomes alive (reproduction)
 
 ## Features
 
